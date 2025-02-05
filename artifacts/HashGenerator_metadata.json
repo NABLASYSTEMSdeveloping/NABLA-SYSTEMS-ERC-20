@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "generateHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hashgen.sol": "HashGenerator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hashgen.sol": {
+			"keccak256": "0xfb57d7a078d3f3e93a3c48ef1d164c92638a0c485ee51e1ff27adb25c5ace047",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c68f4f75750245cc54316c658be5ec0b8d4ee918efe636242d091f0e61072ae2",
+				"dweb:/ipfs/QmennEvTocY8wx15RJxUY7H55rH9vwdpXEmQrnTCuLe3Qz"
+			]
+		}
+	},
+	"version": 1
+}

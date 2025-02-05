@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.4.20+commit.3155dd80"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_creator",
+						"type": "address"
+					},
+					{
+						"name": "_nonce",
+						"type": "uint8"
+					}
+				],
+				"name": "calculateAddressForNonce",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hashgen.sol": "AddressGenerationCalculator"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hashgen.sol": {
+			"keccak256": "0x8f4f134122bea860e233bbb3053097cdbac1bc6bafc714fc6a2e814f3063ff9d",
+			"urls": [
+				"bzzr://db1dad1f26d4e9d24bd10e7ecab2af1d8656cfd56104c2cb02f9388a3305268b"
+			]
+		}
+	},
+	"version": 1
+}
